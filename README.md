@@ -11,9 +11,9 @@ Given a user, action type and resource system should be able to tell whether use
 Assumptions:
 Only one system resource 'file'
 Roles:
-a. normal-user having READ access
-b. admin having read and write access
-c. super-admin having read, write and delete access
+1. normal-user having READ access
+2. admin having read and write access
+3. super-admin having read, write and delete access
 In-memory database for storing users, roles, resources, allowed and denied.
 How to run:
 $ python AccessControl.py
