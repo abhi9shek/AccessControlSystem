@@ -14,6 +14,8 @@ Roles:
 1. normal-user having READ access
 2. admin having read and write access
 3. super-admin having read, write and delete access
+
 In-memory database for storing users, roles, resources, allowed and denied.
+
 How to run:
 $ python AccessControl.py
